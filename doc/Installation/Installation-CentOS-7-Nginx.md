@@ -154,6 +154,7 @@ service snmpd restart
 chown -R librenms:librenms /opt/librenms
 systemctl enable nginx
 systemctl enable mariadb
+systemctl enable snmpd
 ```
 
 Run validate.php as root in the librenms directory:
